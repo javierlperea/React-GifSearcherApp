@@ -41,7 +41,7 @@ describe('Prueba en GifGridItem', () => {
         const div = wrapper.find('div');
         const className = div.prop('className');    // <-- muestra todas las clases del div
         console.log(className.includes('animate__pulse'))  // <-- incluye animate__pulse? true 
-
+        // si dentro de las clases del div se enceutra animate__pulse devuelve true
         expect(className.includes('animate__pulse')).toBe(true);
     })
     
